@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    width: 100%;
+    border: 2px solid #fafafa;
+    background-color: papayawhip;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.links-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.link-item {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    background-color: #fafafa;
+    color: blue;
+}
+
+.logo-container {
+    padding: 1rem;
+    background-color: #fafafa;
+}
+
+.logo-container h1 {
+    font-size: 2rem;
+    color: orange;
+}
